@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="base::Layout(~{::section})">
+<head>
+	<meta charset="UTF-8" />
+	<title>DONATE</title>
+</head>
+<body>
+	<section class="contact-section">
+		<div class="container">
+		<h2>Contact Us</h2>
+		<p>Email us for any query</p>
+		<div class="contact-form container">
+			<form>
+				<input type="text" placeholder="First Name" required> 
+				<input type="text" placeholder="Last Name" required> 
+				<input type="text" placeholder="Email" required> 
+				<input type="text" placeholder="Subject of this message" required> 
+				<textarea name="message" placeholder="Message" rows="5" required></textarea>
+				<button class="submit">Send Message</button>
+			</form>
+		</div>
+		
+		</div>
+	</section>
+</body>
+</html>
